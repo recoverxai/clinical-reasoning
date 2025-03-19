@@ -192,28 +192,28 @@ Most of the components and operations in this repository are built around an int
 
 #### Package names
 
-* Should be rooted with `org.opencds.cqf.fhir`
+* Should be rooted with `com.evidium.cqf.fhir`
 * For the sake of brevity, `clinicalreasoning` is abbreviated `cr` in package names
 * Package names should reflect high-level areas of functionality:
-    * `org.opencds.cqf.fhir.utility`
+    * `com.evidium.cqf.fhir.utility`
         * Non-FHIR version specific utilities
-    * `org.opencds.cqf.fhir.cql`
+    * `com.evidium.cqf.fhir.cql`
         * Non-FHIR version specific CQL components
 * If a FHIR version is specified, it should come after the high-level functionality described:
-    * `org.opencds.cqf.fhir.cql.r5`
+    * `com.evidium.cqf.fhir.cql.r5`
         * An example package name for CQL-related functionality tied to R5
 * If a Resource name if specified, it should generally come after the FHIR version
-    * `org.opencds.cqf.fhir.cr.dstu3.measure`
+    * `com.evidium.cqf.fhir.cr.dstu3.measure`
         * An example package name for Measure-related functionality tied to DSTU3
         * Exception: There may be a few cases where functionality for a Resource is not FHIR-version specific, in which case the FHIR version should be omitted
-            * `org.opencds.cqf.fhir.cr.plandefinition`
+            * `com.evidium.cqf.fhir.cr.plandefinition`
 * Generally, the package name prefix should one of:
-    * `org.opencds.cqf.fhir.api`
-    * `org.opencds.cqf.fhir.utility`
-    * `org.opencds.cqf.fhir.cql`
-    * `org.opencds.cqf.fhir.elm`
-    * `org.opencds.cqf.fhir.cr`
-    * `org.opencds.cqf.fhir.cdshooks`
+    * `com.evidium.cqf.fhir.api`
+    * `com.evidium.cqf.fhir.utility`
+    * `com.evidium.cqf.fhir.cql`
+    * `com.evidium.cqf.fhir.elm`
+    * `com.evidium.cqf.fhir.cr`
+    * `com.evidium.cqf.fhir.cdshooks`
     * If you find a use case that doesn't fall under one those prefixes, it may be out of scope for this repository.
 * Java 9+ modules require that each artifact have only one root package name that's exported. If you find the need for multiple root namespaces, consider that you may need to create a new artifact.
 
@@ -221,10 +221,10 @@ Most of the components and operations in this repository are built around an int
 
 * Should start with `cqf-fhir`
 * Should reflect the root package name for the artifact
-    * `org.opencds.cqf.fhir.cql` -> `cqf-fhir-cql`
-    * `org.opencds.cqf.fhir.utility` -> `cqf-fhir-utility`
+    * `com.evidium.cqf.fhir.cql` -> `cqf-fhir-cql`
+    * `com.evidium.cqf.fhir.utility` -> `cqf-fhir-utility`
 * Exception: If there is a FHIR-version in the package name, it should come _last_ in the artifact name. This is to match the conventions already established by the FHIR core and HAPI FHIR projects
-    * `org.opencds.cqf.fhir.cr.r5.measure` -> `cqf-fhir-cr-measure-r5`
+    * `com.evidium.cqf.fhir.cr.r5.measure` -> `cqf-fhir-cr-measure-r5`
 
 #### Class names
 

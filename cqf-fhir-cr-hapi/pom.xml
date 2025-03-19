@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.opencds.cqf.fhir</groupId>
+        <groupId>com.evidium.cqf.fhir</groupId>
         <artifactId>cqf-fhir</artifactId>
-        <version>3.19.0-SNAPSHOT</version>
+        <version>3.19.0</version>
     </parent>
 
     <artifactId>cqf-fhir-cr-hapi</artifactId>
@@ -49,7 +49,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.opencds.cqf.fhir</groupId>
+            <groupId>com.evidium.cqf.fhir</groupId>
             <artifactId>cqf-fhir-jackson</artifactId>
             <version>${project.version}</version>
             <type>pom</type>
@@ -66,12 +66,12 @@
             <version>${hapi.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.opencds.cqf.fhir</groupId>
+            <groupId>com.evidium.cqf.fhir</groupId>
             <artifactId>cqf-fhir-cr</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.opencds.cqf.fhir</groupId>
+            <groupId>com.evidium.cqf.fhir</groupId>
             <artifactId>cqf-fhir-utility</artifactId>
             <version>${project.version}</version>
         </dependency>
@@ -148,7 +148,7 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.opencds.cqf.fhir</groupId>
+            <groupId>com.evidium.cqf.fhir</groupId>
             <artifactId>cqf-fhir-test</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
@@ -156,7 +156,7 @@
         <dependency>
             <groupId>org.opencds.cqf.fhir</groupId>
             <artifactId>cqf-fhir-cr-test</artifactId>
-            <version>${project.version}</version>
+            <version>${project.version}-SNAPSHOT</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
@@ -185,10 +185,10 @@
                                                     <exclude>*:*</exclude>
                                                 </excludes>
                                                 <includes>
-                                                    <include>org.opencds.cqf:*</include>
-                                                    <include>org.opencds.cqf.cql:*</include>
-                                                    <include>org.opencds.cqf.fhir:*</include>
-                                                    <include>info.cqframework:*</include>
+                                                    <include>com.evidium.cqf:*</include>
+                                                    <include>com.evidium.cqf.cql:*</include>
+                                                    <include>com.evidium.cqf.fhir:*</include>
+                                                    <include>com.evidium.cqframework:*</include>
                                                 </includes>
                                             </requireReleaseDeps>
                                         </rules>

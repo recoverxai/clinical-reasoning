@@ -3,28 +3,28 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.opencds.cqf.fhir</groupId>
+    <groupId>com.evidium.cqf.fhir</groupId>
     <artifactId>cqf-fhir-benchmark</artifactId>
-    <version>3.19.0-SNAPSHOT</version>
+    <version>3.19.0</version>
     <name>FHIR Clinical Reasoning (Benchmarks)</name>
     <description>Tests validating performance of FHIR Clinical Reasoning operations</description>
 
     <parent>
-        <groupId>org.opencds.cqf.fhir</groupId>
+        <groupId>com.evidium.cqf.fhir</groupId>
         <artifactId>cqf-fhir</artifactId>
-        <version>3.19.0-SNAPSHOT</version>
+        <version>3.19.0</version>
     </parent>
 
     <dependencies>
         <dependency>
-            <groupId>org.opencds.cqf.fhir</groupId>
+            <groupId>com.evidium.cqf.fhir</groupId>
             <artifactId>cqf-fhir-cr</artifactId>
-            <version>3.19.0-SNAPSHOT</version>
+            <version>3.19.0</version>
         </dependency>
         <dependency>
-            <groupId>org.opencds.cqf.fhir</groupId>
+            <groupId>com.evidium.cqf.fhir</groupId>
             <artifactId>cqf-fhir-test</artifactId>
-            <version>3.19.0-SNAPSHOT</version>
+            <version>3.19.0</version>
         </dependency>
         <dependency>
             <groupId>org.openjdk.jmh</groupId>
@@ -37,9 +37,9 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.opencds.cqf.fhir</groupId>
+            <groupId>com.evidium.cqf.fhir</groupId>
             <artifactId>cqf-fhir-jackson</artifactId>
-            <version>3.19.0-SNAPSHOT</version>
+            <version>3.19.0</version>
             <type>pom</type>
             <scope>test</scope>
         </dependency>

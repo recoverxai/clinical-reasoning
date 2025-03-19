@@ -1,7 +1,7 @@
 # CQF Clinical Reasoning on FHIR for Java
 
 [![project chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://chat.fhir.org/#narrow/stream/179220-cql)
-[![Release](https://maven-badges.herokuapp.com/maven-central/org.opencds.cqf.fhir/cqf-fhir/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.opencds.cqf.fhir/cqf-fhir)
+[![Release](https://maven-badges.herokuapp.com/maven-central/com.evidium.cqf.fhir/cqf-fhir/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.evidium.cqf.fhir/cqf-fhir)
 [![Build](https://github.com/cqframework/clinical-reasoning/actions/workflows/build.yml/badge.svg)](https://github.com/cqframework/clinical-reasoning/actions/workflows/build.yml)
 
 This project provides a Java-based, FHIR-enabled clinical reasoning components.
